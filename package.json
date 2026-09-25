@@ -1,0 +1,17 @@
+{
+	"type": "module",
+	"scripts": {
+		"dev": "tsx --env-file=.env src/main.ts",
+		"build": "tsc",
+		"start": "node dist/main.js"
+	},
+	"dependencies": {
+		"@types/express": "^5.0.6",
+		"express": "^5.2.1",
+		"socket.io": "^4.8.3"
+	},
+	"devDependencies": {
+		"tsx": "^4.23.13",
+		"typescript": "^7.0.2"
+	}
+}
