@@ -67,5 +67,10 @@ app.post("/send", async (req, res) => {
 })
 
 
+app.get("/", (req, res) => {
+    res.end();
+})
+
+
 
 server.listen(APP_ENV.PORT);
